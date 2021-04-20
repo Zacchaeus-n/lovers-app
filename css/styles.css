@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+
+/* main warp */
+.header {
+  width: 100%;
+  background-color: blueviolet;
+  color: aliceblue;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.header:hover {
+  box-shadow: 0 0.2rem 1rem 0 rgba(226, 58, 241, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+  color: blueviolet;
+  background-color: aliceblue;
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+a:hover {
+  cursor: pointer;
+  color: brown;
+}
+
+/* search area */
+.search__wrap {
+  width: 86%;
+
+  margin: 20px 2px 10px 2px;
+  border-radius: 8px;
+}
+
+/* results area */
+.results__wrap {
+  width: 80%;
+  /* 
+  background-color: rgb(112, 241, 181);
+  padding: 20px;
+  margin: 20px 10px;
+  border-radius: 8px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search__wrap > form > input {
+  outline: none;
+  border-style: none;
+  padding: 20px 20px;
+  width: 39.5%;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  box-shadow: 0 0 5px rgba(70, 105, 104, 0.75);
+}
+
+.search__wrap > form > button {
+  outline: none;
+  border-style: none;
+  padding: 20px;
+  width: 24%;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 0 0 5px rgba(70, 105, 104, 0.75);
+  background-color: brown;
+  color: aliceblue;
+}
+.search__wrap > form > select {
+  outline: none;
+  border-style: none;
+  padding: 19px;
+  width: 24%;
+  box-shadow: 0 0 5px rgba(70, 105, 104, 0.75);
+  /* background-color: aliceblue; */
+}
+
+.message__wrap {
+  margin-top: 10px;
+  padding: 20px 20px;
+  background-color: aliceblue;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(70, 105, 104, 0.75);
+}
+img {
+  width: 100px;
+}
+
+.auther p {
+  text-transform: capitalize;
+  color: tomato;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+
+  /* sidebar area */
+  .search__wrap {
+    width: 80%;
+
+    margin: 20px 2px 10px 2px;
+    border-radius: 8px;
+  }
+
+  /* message area */
+  .results__wrap {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search__wrap > form > input {
+    outline: none;
+    border-style: none;
+    padding: 20px 20px;
+    width: 45%;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    box-shadow: 0 0 5px rgba(70, 105, 104, 0.75);
+  }
+  .search__wrap > form > input:hover {
+    box-shadow: 0 0 5px rgba(72, 156, 235, 0.685);
+    transition: all 0.5s;
+  }
+
+  .search__wrap > form > button {
+    outline: none;
+    border-style: none;
+    padding: 20px 20px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 0 0 5px rgba(70, 105, 104, 0.75);
+  }
+
+  .search__wrap > form > button:hover {
+    background-color: aliceblue;
+    color: brown;
+    box-shadow: 0 0 5px rgba(72, 156, 235, 0.685);
+    transition: all 0.5s;
+  }
+
+  .search__wrap > form > select {
+    outline: none;
+    border-style: none;
+    padding: 19px;
+    width: 25%;
+    box-shadow: 0 0 5px rgba(70, 105, 104, 0.75);
+  }
+  .search__wrap > form > select:hover {
+    box-shadow: 0 0 5px rgba(72, 156, 235, 0.685);
+    transition: all 0.5s;
+    background-color: aliceblue;
+  }
+
+  .message__wrap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 20px 20px;
+    width: 100%;
+    border-radius: 8px;
+    /* box-shadow: 0 0 5px rgba(70, 105, 104, 0.75); */
+  }
+  .message__wrap:hover {
+    box-shadow: 0 0.2rem 1rem 0 rgba(226, 58, 241, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  .auther {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .auther p {
+    text-transform: capitalize;
+    color: tomato;
+  }
+}

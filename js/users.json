@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Terry Smith",
+    "gender": "Male",
+    "hobbies": "coding",
+    "avatar": "/images/avatar/avatar0.jpg"
+  },
+  {
+    "name": "Chuck Bomb",
+    "gender": "Male",
+    "hobbies": "hanging out",
+    "avatar": "/images/avatar/avatar10.png"
+  },
+  {
+    "name": "Red Terrance",
+    "gender": "Male",
+    "hobbies": "bravery",
+    "avatar": "/images/avatar/avatar9.jpg"
+  },
+  {
+    "name": "Matilda White",
+    "gender": "Female",
+    "hobbies": "teaching",
+    "avatar": "/images/avatar/avatar11.jpg"
+  },
+  {
+    "name": "Tricy Drake",
+    "gender": "Female",
+    "hobbies": "love",
+    "avatar": "/images/avatar/avatar7.jpg"
+  },
+  {
+    "name": "Joice Addo",
+    "gender": "Female",
+    "hobbies": "Ampe, Reading, Singing",
+    "avatar": "/images/avatar/avatar5.png"
+  }  
+]
