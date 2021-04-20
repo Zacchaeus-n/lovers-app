@@ -36,7 +36,6 @@ const loadUsers = (data) => {
       <h3>${user.name}</h3>
       <p>${user.hobbies}</p>
       </div>
-      <a href="#">Add Friend</a>
       </div>
       </div>
       `;
@@ -75,6 +74,7 @@ const searchPerson = (e) => {
   e.preventDefault();
   const hobbyField = document.querySelector("#hobby");
   const genderField = document.querySelector("#gender");
+
   let hobby = hobbyField.value;
 
   const selectedIndex = genderField.selectedIndex;
